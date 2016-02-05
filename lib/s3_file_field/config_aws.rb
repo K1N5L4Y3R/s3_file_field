@@ -12,7 +12,8 @@ module S3FileField
       :region,
       :key_starts_with,
       :ssl,
-      :url
+      :url,
+      :max_file_size
     ]
 
     attr_accessor *ATTRIBUTES
